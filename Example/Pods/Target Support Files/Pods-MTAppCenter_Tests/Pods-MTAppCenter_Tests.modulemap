@@ -1,0 +1,6 @@
+framework module Pods_MTAppCenter_Tests {
+  umbrella header "Pods-MTAppCenter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

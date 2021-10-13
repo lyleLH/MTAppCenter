@@ -1,0 +1,6 @@
+framework module Pods_MTAppCenter_Example {
+  umbrella header "Pods-MTAppCenter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,73 @@
+PODS:
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MTAppCenter (0.1.0)
+  - Toast (4.0.0)
+  - YKCategoryComponent (1.1.5):
+    - Masonry
+    - YKCategoryComponent/Foundation (= 1.1.5)
+    - YKCategoryComponent/UIKit (= 1.1.5)
+  - YKCategoryComponent/Foundation (1.1.5):
+    - Masonry
+    - YKCategoryComponent/Foundation/Sources (= 1.1.5)
+  - YKCategoryComponent/Foundation/Sources (1.1.5):
+    - Masonry
+  - YKCategoryComponent/UIKit (1.1.5):
+    - Masonry
+    - YKCategoryComponent/UIKit/UIColor (= 1.1.5)
+    - YKCategoryComponent/UIKit/UIControl (= 1.1.5)
+    - YKCategoryComponent/UIKit/UIImage (= 1.1.5)
+    - YKCategoryComponent/UIKit/UIImageView (= 1.1.5)
+    - YKCategoryComponent/UIKit/UITableView (= 1.1.5)
+    - YKCategoryComponent/UIKit/UITextField (= 1.1.5)
+    - YKCategoryComponent/UIKit/UIView (= 1.1.5)
+    - YKCategoryComponent/UIKit/UIViewController (= 1.1.5)
+  - YKCategoryComponent/UIKit/UIColor (1.1.5):
+    - Masonry
+  - YKCategoryComponent/UIKit/UIControl (1.1.5):
+    - Masonry
+  - YKCategoryComponent/UIKit/UIImage (1.1.5):
+    - Masonry
+    - YKCategoryComponent/UIKit/UIColor
+    - YKCategoryComponent/UIKit/UIView
+  - YKCategoryComponent/UIKit/UIImageView (1.1.5):
+    - Masonry
+  - YKCategoryComponent/UIKit/UITableView (1.1.5):
+    - Masonry
+  - YKCategoryComponent/UIKit/UITextField (1.1.5):
+    - Masonry
+  - YKCategoryComponent/UIKit/UIView (1.1.5):
+    - Masonry
+    - YKCategoryComponent/UIKit/UIColor
+  - YKCategoryComponent/UIKit/UIViewController (1.1.5):
+    - Masonry
+    - MBProgressHUD
+    - Toast
+    - YKCategoryComponent/UIKit/UIColor
+
+DEPENDENCIES:
+  - MTAppCenter (from `../`)
+  - YKCategoryComponent (= 1.1.5)
+
+SPEC REPOS:
+  http://gitlab.yeahka.com/App/iOS/YeahkaNativeComSpecsIndex.git:
+    - YKCategoryComponent
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - MBProgressHUD
+    - Toast
+
+EXTERNAL SOURCES:
+  MTAppCenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MTAppCenter: 8e0e82d7171bd5038408c4e950b3ae5e2a6a5a4d
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YKCategoryComponent: 672d7f6564c446493af329cd2a43e164c072ec8b
+
+PODFILE CHECKSUM: 4f42b7071431f6ad517bd20987f6ffae68217af9
+
+COCOAPODS: 1.10.1
