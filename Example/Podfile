@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MTAppCenter_Example' do
+  pod 'MTAppCenter', :path => '../'
+
+  target 'MTAppCenter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
