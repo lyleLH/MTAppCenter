@@ -1,7 +1,6 @@
-source 'http://gitlab.yeahka.com/App/iOS/Modules/YKSpecs.git'
+source 'https://github.com/lyleLH/MTSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 #source 'https://cdn.cocoapods.org/'                  #官方仓库地址 cdn
-source 'http://gitlab.yeahka.com/App/iOS/YeahkaNativeComSpecsIndex.git'
 
 
 
@@ -12,7 +11,7 @@ platform :ios, '9.0'
 
 target 'MTAppCenter_Example' do
   
-  pod 'YKCategoryComponent','1.1.5'
+  pod 'MTCategoryComponent'
   pod 'MTAppCenter', :path => '../'
 
   target 'MTAppCenter_Tests' do

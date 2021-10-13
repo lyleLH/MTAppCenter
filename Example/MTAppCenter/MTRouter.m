@@ -7,7 +7,7 @@
 //
 
 #import "MTRouter.h"
-#import <YKCategoryComponent/YKCategoriesComponentHeader.h>
+#import <MTCategoryComponent/MTCategoryComponentHeader.h>
 #import "MTBaseViewController.h"
  
 
@@ -46,7 +46,7 @@ static NSMapTable <NSObject *,NSDictionary *>* _routerParams;
     [_routerParams setObject:params forKey:vc_alloc];
     MTBaseViewController * vc_init = [vc_alloc init];
     
-    [[UIViewController yk_topViewController] presentViewController:vc_init animated:YES completion:nil];
+    [[UIViewController mt_topViewController] presentViewController:vc_init animated:YES completion:nil];
  
 }
 

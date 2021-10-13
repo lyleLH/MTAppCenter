@@ -2,60 +2,51 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MTAppCenter (0.1.0)
-  - Toast (4.0.0)
-  - YKCategoryComponent (1.1.5):
+  - MTCategoryComponent (1.3.0):
+    - MTCategoryComponent/Foundation (= 1.3.0)
+    - MTCategoryComponent/UIKit (= 1.3.0)
+  - MTCategoryComponent/Foundation (1.3.0):
+    - MTCategoryComponent/Foundation/Sources (= 1.3.0)
+  - MTCategoryComponent/Foundation/Sources (1.3.0)
+  - MTCategoryComponent/UIKit (1.3.0):
+    - MTCategoryComponent/UIKit/UIColor (= 1.3.0)
+    - MTCategoryComponent/UIKit/UIControl (= 1.3.0)
+    - MTCategoryComponent/UIKit/UIImage (= 1.3.0)
+    - MTCategoryComponent/UIKit/UIImageView (= 1.3.0)
+    - MTCategoryComponent/UIKit/UIResponder (= 1.3.0)
+    - MTCategoryComponent/UIKit/UITableView (= 1.3.0)
+    - MTCategoryComponent/UIKit/UITextField (= 1.3.0)
+    - MTCategoryComponent/UIKit/UIView (= 1.3.0)
+    - MTCategoryComponent/UIKit/UIViewController (= 1.3.0)
+  - MTCategoryComponent/UIKit/UIColor (1.3.0)
+  - MTCategoryComponent/UIKit/UIControl (1.3.0)
+  - MTCategoryComponent/UIKit/UIImage (1.3.0):
+    - MTCategoryComponent/UIKit/UIColor
+    - MTCategoryComponent/UIKit/UIView
+  - MTCategoryComponent/UIKit/UIImageView (1.3.0)
+  - MTCategoryComponent/UIKit/UIResponder (1.3.0)
+  - MTCategoryComponent/UIKit/UITableView (1.3.0)
+  - MTCategoryComponent/UIKit/UITextField (1.3.0)
+  - MTCategoryComponent/UIKit/UIView (1.3.0):
     - Masonry
-    - YKCategoryComponent/Foundation (= 1.1.5)
-    - YKCategoryComponent/UIKit (= 1.1.5)
-  - YKCategoryComponent/Foundation (1.1.5):
-    - Masonry
-    - YKCategoryComponent/Foundation/Sources (= 1.1.5)
-  - YKCategoryComponent/Foundation/Sources (1.1.5):
-    - Masonry
-  - YKCategoryComponent/UIKit (1.1.5):
-    - Masonry
-    - YKCategoryComponent/UIKit/UIColor (= 1.1.5)
-    - YKCategoryComponent/UIKit/UIControl (= 1.1.5)
-    - YKCategoryComponent/UIKit/UIImage (= 1.1.5)
-    - YKCategoryComponent/UIKit/UIImageView (= 1.1.5)
-    - YKCategoryComponent/UIKit/UITableView (= 1.1.5)
-    - YKCategoryComponent/UIKit/UITextField (= 1.1.5)
-    - YKCategoryComponent/UIKit/UIView (= 1.1.5)
-    - YKCategoryComponent/UIKit/UIViewController (= 1.1.5)
-  - YKCategoryComponent/UIKit/UIColor (1.1.5):
-    - Masonry
-  - YKCategoryComponent/UIKit/UIControl (1.1.5):
-    - Masonry
-  - YKCategoryComponent/UIKit/UIImage (1.1.5):
-    - Masonry
-    - YKCategoryComponent/UIKit/UIColor
-    - YKCategoryComponent/UIKit/UIView
-  - YKCategoryComponent/UIKit/UIImageView (1.1.5):
-    - Masonry
-  - YKCategoryComponent/UIKit/UITableView (1.1.5):
-    - Masonry
-  - YKCategoryComponent/UIKit/UITextField (1.1.5):
-    - Masonry
-  - YKCategoryComponent/UIKit/UIView (1.1.5):
-    - Masonry
-    - YKCategoryComponent/UIKit/UIColor
-  - YKCategoryComponent/UIKit/UIViewController (1.1.5):
-    - Masonry
+    - MTCategoryComponent/UIKit/UIColor
+  - MTCategoryComponent/UIKit/UIViewController (1.3.0):
     - MBProgressHUD
+    - MTCategoryComponent/UIKit/UIColor
     - Toast
-    - YKCategoryComponent/UIKit/UIColor
+  - Toast (4.0.0)
 
 DEPENDENCIES:
   - MTAppCenter (from `../`)
-  - YKCategoryComponent (= 1.1.5)
+  - MTCategoryComponent
 
 SPEC REPOS:
-  http://gitlab.yeahka.com/App/iOS/YeahkaNativeComSpecsIndex.git:
-    - YKCategoryComponent
   https://github.com/CocoaPods/Specs.git:
     - Masonry
     - MBProgressHUD
     - Toast
+  https://github.com/lyleLH/MTSpecs.git:
+    - MTCategoryComponent
 
 EXTERNAL SOURCES:
   MTAppCenter:
@@ -65,9 +56,9 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MTAppCenter: 8e0e82d7171bd5038408c4e950b3ae5e2a6a5a4d
+  MTCategoryComponent: 097f709679feff15b613d575f42f4cddfbf6b980
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  YKCategoryComponent: 672d7f6564c446493af329cd2a43e164c072ec8b
 
-PODFILE CHECKSUM: 4f42b7071431f6ad517bd20987f6ffae68217af9
+PODFILE CHECKSUM: f02ec59fabb6c6f480695b61d8277259dc334559
 
 COCOAPODS: 1.10.1

@@ -1,6 +1,0 @@
-framework module YKCategoryComponent {
-  umbrella header "YKCategoryComponent-umbrella.h"
-
-  export *
-  module * { export * }
-}
