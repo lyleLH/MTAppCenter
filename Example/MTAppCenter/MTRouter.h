@@ -7,12 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MTRouterProrocol.h"
-#import "MTBaseViewControllerDelegate.h"
-
+ 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MTRouter : NSObject <MTBaseViewControllerRouterDelegate>
+@interface MTRouter : NSObject
 
 + (void)registerClass:(Class)class  forRouter:(NSString *)router;
 

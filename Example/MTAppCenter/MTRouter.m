@@ -8,7 +8,7 @@
 
 #import "MTRouter.h"
 #import <MTCategoryComponent/MTCategoryComponentHeader.h>
-#import "MTBaseViewController.h"
+ 
  
 
 
@@ -42,9 +42,9 @@ static NSMapTable <NSObject *,NSDictionary *>* _routerParams;
 + (void)openURL:(NSString *)url withParams:(NSDictionary*)params  style:(NSInteger)style {
     Class class = [[self routers] valueForKey:url];
     
-    MTBaseViewController * vc_alloc =  [[class class] alloc];
+    UIViewController * vc_alloc =  [[class class] alloc];
     [_routerParams setObject:params forKey:vc_alloc];
-    MTBaseViewController * vc_init = [vc_alloc init];
+    UIViewController * vc_init = [vc_alloc init];
     
     [[UIViewController mt_topViewController] presentViewController:vc_init animated:YES completion:nil];
  

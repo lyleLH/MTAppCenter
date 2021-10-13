@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		22D997D92716DC6C004F2605 /* MTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D997D82716DC6C004F2605 /* MTRouter.m */; };
 		22D997DC2716DD1E004F2605 /* MTProductDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D997DB2716DD1E004F2605 /* MTProductDetailsVC.m */; };
-		22D997E02716E386004F2605 /* MTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D997DF2716E386004F2605 /* MTBaseViewController.m */; };
 		22D997E52716FB7C004F2605 /* MTProcutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D997E42716FB7C004F2605 /* MTProcutListViewController.m */; };
 		335403672E12B2DB96D74ABC /* Pods_MTAppCenter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DBBF62741BB2689FB9B274 /* Pods_MTAppCenter_Example.framework */; };
 		4322081707895264CF4E67D0 /* Pods_MTAppCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91ADFF44F274D3B9A37D9B6D /* Pods_MTAppCenter_Tests.framework */; };
@@ -47,11 +46,6 @@
 		22D997D82716DC6C004F2605 /* MTRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRouter.m; sourceTree = "<group>"; };
 		22D997DA2716DD1E004F2605 /* MTProductDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTProductDetailsVC.h; sourceTree = "<group>"; };
 		22D997DB2716DD1E004F2605 /* MTProductDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTProductDetailsVC.m; sourceTree = "<group>"; };
-		22D997DD2716E1D3004F2605 /* MTRouterProrocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRouterProrocol.h; sourceTree = "<group>"; };
-		22D997DE2716E386004F2605 /* MTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBaseViewController.h; sourceTree = "<group>"; };
-		22D997DF2716E386004F2605 /* MTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBaseViewController.m; sourceTree = "<group>"; };
-		22D997E12716E491004F2605 /* MTBaseViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBaseViewControllerDelegate.h; sourceTree = "<group>"; };
-		22D997E22716F832004F2605 /* MTBaseViewControllerInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBaseViewControllerInterface.h; sourceTree = "<group>"; };
 		22D997E32716FB7C004F2605 /* MTProcutListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTProcutListViewController.h; sourceTree = "<group>"; };
 		22D997E42716FB7C004F2605 /* MTProcutListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTProcutListViewController.m; sourceTree = "<group>"; };
 		2A16BC3CE73D89ADF5403321 /* Pods-MTAppCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTAppCenter_Tests.release.xcconfig"; path = "Target Support Files/Pods-MTAppCenter_Tests/Pods-MTAppCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,11 +146,6 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MTViewController.h */,
 				6003F5A6195388D20070C39A /* MTViewController.m */,
-				22D997DD2716E1D3004F2605 /* MTRouterProrocol.h */,
-				22D997E12716E491004F2605 /* MTBaseViewControllerDelegate.h */,
-				22D997E22716F832004F2605 /* MTBaseViewControllerInterface.h */,
-				22D997DE2716E386004F2605 /* MTBaseViewController.h */,
-				22D997DF2716E386004F2605 /* MTBaseViewController.m */,
 				22D997E32716FB7C004F2605 /* MTProcutListViewController.h */,
 				22D997E42716FB7C004F2605 /* MTProcutListViewController.m */,
 				22D997DA2716DD1E004F2605 /* MTProductDetailsVC.h */,
@@ -400,7 +389,6 @@
 			files = (
 				22D997DC2716DD1E004F2605 /* MTProductDetailsVC.m in Sources */,
 				6003F59E195388D20070C39A /* MTAppDelegate.m in Sources */,
-				22D997E02716E386004F2605 /* MTBaseViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* MTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				22D997D92716DC6C004F2605 /* MTRouter.m in Sources */,

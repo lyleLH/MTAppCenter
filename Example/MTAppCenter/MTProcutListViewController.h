@@ -6,11 +6,11 @@
 //  Copyright © 2021 MTTGCC. All rights reserved.
 //
 
-#import "MTBaseViewController.h"
-
+#import <UIKit/UIKit.h>
+#import "MTRouter.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MTProcutListViewController : MTBaseViewController
+@interface MTProcutListViewController : UIViewController
 
 @end
 
